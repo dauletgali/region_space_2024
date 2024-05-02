@@ -10,7 +10,21 @@
         height: 100%;
         margin: 0;
         padding: 0;
+        touch-action: pan-x pan-y;
+
       }
+       a {
+            display: inline-block; /* Allows applying padding and margin */
+            padding: 5px 10px; /* Padding inside the button */
+            margin: 10px; /* Space around the button */
+            text-align: center; /* Center the text inside the button */
+            text-decoration: none; /* Remove underline from the link */
+            color: white; /* Text color */
+            background-color: #007BFF; /* Background color */
+            border: 1px solid transparent; /* Optional border */
+            border-radius: 5px; /* Rounded corners */
+            transition: background-color 0.3s, color 0.3s; /* Smooth transition for hover effect */
+        }
     </style>
     <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-3.2.1.min.js"></script>
     <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-widgets-3.2.1.min.js"></script>
@@ -19,6 +33,8 @@
     </script>
   </head>
   <body>
+        <a href = "https://dauletgali.github.io/region_space_2024/">See in web</a>
+
     <div id="cbaedf5a-c5d0-4bee-aa33-d1a055cf8251" data-root-id="p1066" style="display: contents;"></div>
   
     <script type="application/json" id="p1068">
